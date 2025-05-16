@@ -34,10 +34,14 @@ sources:
           - name: fare_conditions
             description: Класс обслуживания
       - name: bookings
+        description: Бронирования
         columns:
           - name: book_ref
+            description: Номер бронирования
           - name: book_date
+            description: Дата бронирования
           - name: total_amount
+            description: Полная стоимость бронирования
         freshness:
           warn_after:
             count: 600000
